@@ -383,7 +383,12 @@ const styles = {
     fontFamily: 'var(--font-primary)',
     color: 'var(--color-text)'
   },
-sendButton: {
+  loadingText: {
+    display: 'flex',
+    alignItems: 'center',
+    gap: 'var(--space-xs)'
+  },
+  sendButton: {
   padding: 'var(--space-sm) var(--space-xl)',
   background: 'linear-gradient(135deg, #FFD54F 0%, #FFC107 100%)', // warm golden yellow
   color: '#111', // dark text for contrast
@@ -434,11 +439,6 @@ sendButton: {
     opacity: 1,
   },
 },
-  loadingText: {
-    display: 'flex',
-    alignItems: 'center',
-    gap: 'var(--space-xs)'
-  },
   spinner: {
     display: 'inline-block',
     animation: 'spin 1s linear infinite'
